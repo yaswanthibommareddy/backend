@@ -7,7 +7,9 @@ GET  /users/me            controllers.UsersController.getCurrentUser()
 PUT /users/signin         controllers.UsersController.signInUser()
 PUT /users/signout        controllers.UsersController.signOutUser()
 
-
+POST /images             controllers.ImagesController.uploadImage()
+GET /images/:id          controllers.ImagesController.downloadImage(id: String)
+DELETE /images/:id       controllers.ImagesController.deleteImage(id: String)
 
 POST /hotels              controllers.HotelController.createHotel()
 GET  /hotels/:id          controllers.HotelController.getHotelById(id: Integer)
