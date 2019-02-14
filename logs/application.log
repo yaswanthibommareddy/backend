@@ -1,0 +1,27 @@
+2019-02-14 10:36:02,839 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-8 - Database [default] initialized at jdbc:mysql://localhost/library
+2019-02-14 10:36:02,850 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2019-02-14 10:36:02,882 [WARN] from com.zaxxer.hikari.util.DriverDataSource in play-dev-mode-akka.actor.default-dispatcher-8 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-02-14 10:36:03,609 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2019-02-14 10:36:03,915 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-8 - ApplicationTimer demo: Starting application at 2019-02-14T05:06:03.915Z
+2019-02-14 10:36:06,319 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-8 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2019-02-14 10:36:06,356 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-8 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-02-14 10:36:06,587 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-8 - Application started (Dev)
+2019-02-14 10:36:07,079 [DEBUG] from controllers.UsersController in application-akka.actor.default-dispatcher-3 - Password hash 847c5be0aa868d6247d5d249b9fae141
+2019-02-14 10:36:45,494 [WARN] from play.filters.CSRF in application-akka.actor.default-dispatcher-5 - [CSRF] Check failed because no token found in headers for /users/me
+2019-02-14 10:37:56,742 [WARN] from play.filters.CSRF in application-akka.actor.default-dispatcher-2 - [CSRF] Check failed because no token found in headers for /users/signin
+2019-02-14 10:38:43,829 [DEBUG] from controllers.UsersController in application-akka.actor.default-dispatcher-2 - Password hash 847c5be0aa868d6247d5d249b9fae141
+2019-02-14 10:38:58,443 [DEBUG] from controllers.Security.AuthenticatorAction in application-akka.actor.default-dispatcher-2 - Auth token = Bearer ABC1234
+2019-02-14 10:38:58,444 [DEBUG] from controllers.Security.AuthenticatorAction in application-akka.actor.default-dispatcher-2 - accessToken ABC1234
+2019-02-14 10:38:58,453 [DEBUG] from controllers.UsersController in application-akka.actor.default-dispatcher-2 - ABC1234
